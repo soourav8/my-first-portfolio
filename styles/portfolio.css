@@ -232,5 +232,7 @@ main {
 
 .contact a{
     text-decoration: none;
+    display: inline-block;
+    margin-left: 24px;
     
 }
