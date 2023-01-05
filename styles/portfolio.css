@@ -18,6 +18,18 @@
     background-color: #FD6E0A;
 }
 
+.contact-button {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-top: 31px;
+    padding: 18px 24px;
+    margin-left: 53px;
+    
+border: 1px solid #FD6E0A;
+border-radius: 5px;
+}
+
 .header {
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
@@ -212,27 +224,30 @@ main {
 }
 
 /*Contact style*/
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 
 }
+
 .contact .section-title {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     display: inline-block;
     margin-left: 24px;
-    
+
 }
